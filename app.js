@@ -21,7 +21,7 @@ client.on("messageDelete", (messageDelete) => {
     const channel = messageDelete.guild.channels.find(ch => ch.name === 'channel name here');
     channel.send(`The message : "${messageDelete.content}" by ${messageDelete.author} was deleted. Their ID is ${messageDelete.author.id}`);
   }); 
-
+//wait and see
 client.login(token);
 
 
