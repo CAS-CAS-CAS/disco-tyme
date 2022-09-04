@@ -1,0 +1,13 @@
+{
+   "animated": false,
+   "name": "notahotdog",
+   "id": "987179870645813248",
+   "guildId": "734174765065175070",
+   "requiresColons": true,
+   "managed": false,
+   "available": true,
+   "author": null,
+   "createdTimestamp": 1655432422077,
+   "url": "https://cdn.discordapp.com/emojis/987179870645813248.png",
+   "identifier": "notahotdog:987179870645813248"
+}

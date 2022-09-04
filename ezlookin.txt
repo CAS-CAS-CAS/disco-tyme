@@ -1,0 +1,164 @@
+{
+   "options": {
+      "intents": 1,
+      "closeTimeout": 5000,
+      "waitGuildTimeout": 15000,
+      "shardCount": 1,
+      "partials": [],
+      "failIfNotExists": true,
+      "presence": {
+         "status": "online",
+         "user": {
+            "id": null
+         }
+      },
+      "sweepers": {
+         "threads": {
+            "interval": 3600,
+            "lifetime": 14400
+         }
+      },
+      "ws": {
+         "large_threshold": 50,
+         "compress": false,
+         "properties": {
+            "os": "darwin",
+            "browser": "discord.js",
+            "device": "discord.js"
+         },
+         "version": 10,
+         "presence": {
+            "activities": [],
+            "afk": false,
+            "since": null,
+            "status": "online"
+         }
+      },
+      "rest": {
+         "agent": {},
+         "api": "https://discord.com/api",
+         "authPrefix": "Bot",
+         "cdn": "https://cdn.discordapp.com",
+         "headers": {},
+         "invalidRequestWarningInterval": 0,
+         "globalRequestsPerSecond": 50,
+         "offset": 50,
+         "rejectOnRateLimit": null,
+         "retries": 3,
+         "timeout": 15000,
+         "userAgentAppendix": "Node.js v16.15.1",
+         "version": "10",
+         "hashSweepInterval": 14400000,
+         "hashLifetime": 86400000,
+         "handlerSweepInterval": 3600000
+      },
+      "shards": [
+         0
+      ]
+   },
+   "rest": {
+      "cdn": {
+         "base": "https://cdn.discordapp.com"
+      },
+      "requestManager": {
+         "agent": {},
+         "globalDelay": null,
+         "globalReset": 1662240624423,
+         "hashes": [
+            "GET:/gateway/bot"
+         ],
+         "handlers": [
+            "Global(GET:/gateway/bot):global"
+         ],
+         "options": {
+            "agent": {},
+            "api": "https://discord.com/api",
+            "authPrefix": "Bot",
+            "cdn": "https://cdn.discordapp.com",
+            "headers": {},
+            "invalidRequestWarningInterval": 0,
+            "globalRequestsPerSecond": 50,
+            "offset": 50,
+            "rejectOnRateLimit": null,
+            "retries": 3,
+            "timeout": 15000,
+            "userAgentAppendix": "Node.js v16.15.1",
+            "version": "10",
+            "hashSweepInterval": 14400000,
+            "hashLifetime": 86400000,
+            "handlerSweepInterval": 3600000
+         },
+         "globalRemaining": 49,
+         "hashTimer": {},
+         "handlerTimer": {}
+      }
+   },
+   "ws": {
+      "gateway": "wss://gateway.discord.gg/",
+      "totalShards": 1,
+      "shards": [
+         0
+      ],
+      "status": 0,
+      "destroyed": false,
+      "reconnecting": false
+   },
+   "voice": {
+      "adapters": {}
+   },
+   "shard": null,
+   "users": [
+      "1015361656102080662"
+   ],
+   "guilds": [
+      "734174765065175070"
+   ],
+   "channels": [
+      "734174765065175072",
+      "734174765065175073",
+      "734174765065175077",
+      "848314792908423188",
+      "848315296397918218",
+      "884567761228017685",
+      "912057643009470535",
+      "915407297835044924",
+      "916598894455033918",
+      "922982456024510484",
+      "929206524990091314",
+      "929206767148204043",
+      "935267450713432144",
+      "935267605349019679",
+      "946196451153825852",
+      "946198324762013756",
+      "951310347879481355",
+      "960758973160644678",
+      "961348132233424946"
+   ],
+   "sweepers": {
+      "options": {
+         "threads": {
+            "interval": 3600,
+            "lifetime": 14400
+         }
+      },
+      "intervals": {
+         "applicationCommands": null,
+         "bans": null,
+         "emojis": null,
+         "invites": null,
+         "guildMembers": null,
+         "messages": null,
+         "presences": null,
+         "reactions": null,
+         "stageInstances": null,
+         "stickers": null,
+         "threadMembers": null,
+         "threads": {},
+         "users": null,
+         "voiceStates": null
+      }
+   },
+   "user": "1015361656102080662",
+   "application": "1015361656102080662",
+   "readyTimestamp": 1662240626114
+}
