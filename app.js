@@ -8,7 +8,8 @@ let emoji;
 client.on('ready', () => {
     console.log("Its Blammin' time!");
     //let myRole = client.guild.roles.cache.find(role => role.name === "Total Stud");
-    fs.writeFile("channels.txt", JSON.stringify(client.channels.cache.find(chan=>chan.name==="bot-testing-grounds"), null, 3), err => {if(err){throw err}});
+    console.log(client.channels.valueOf().first()); // its a class!!!
+    fs.writeFile("channels.txt", JSON.stringify(client.channels, null, 3), err => {if(err){throw err}});
     emoji = client.emojis.cache.find(moji=>moji.name==="notahotdog");
     client.channels.cache.find(chan=>chan.name==="bot-testing-grounds").send("Get BLAMM'D loser");
 });
